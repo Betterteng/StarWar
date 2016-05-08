@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4005F85F1CBFA3D40047B8F8 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4005F85E1CBFA3D40047B8F8 /* Person.swift */; };
+		4005F8611CBFA5DA0047B8F8 /* viewPersonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4005F8601CBFA5DA0047B8F8 /* viewPersonController.swift */; };
 		408338F51CBF8C9800E216B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408338F41CBF8C9800E216B2 /* AppDelegate.swift */; };
 		408338F71CBF8C9800E216B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408338F61CBF8C9800E216B2 /* ViewController.swift */; };
 		408338FA1CBF8C9800E216B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 408338F81CBF8C9800E216B2 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4005F85E1CBFA3D40047B8F8 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		4005F8601CBFA5DA0047B8F8 /* viewPersonController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = viewPersonController.swift; sourceTree = "<group>"; };
 		408338F11CBF8C9800E216B2 /* StarWar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarWar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		408338F41CBF8C9800E216B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		408338F61CBF8C9800E216B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,12 +101,14 @@
 		408338F31CBF8C9800E216B2 /* StarWar */ = {
 			isa = PBXGroup;
 			children = (
+				408339001CBF8C9800E216B2 /* Info.plist */,
 				408338F41CBF8C9800E216B2 /* AppDelegate.swift */,
+				4005F85E1CBFA3D40047B8F8 /* Person.swift */,
 				408338F61CBF8C9800E216B2 /* ViewController.swift */,
-				408338F81CBF8C9800E216B2 /* Main.storyboard */,
+				4005F8601CBFA5DA0047B8F8 /* viewPersonController.swift */,
 				408338FB1CBF8C9800E216B2 /* Assets.xcassets */,
 				408338FD1CBF8C9800E216B2 /* LaunchScreen.storyboard */,
-				408339001CBF8C9800E216B2 /* Info.plist */,
+				408338F81CBF8C9800E216B2 /* Main.storyboard */,
 			);
 			path = StarWar;
 			sourceTree = "<group>";
@@ -256,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4005F85F1CBFA3D40047B8F8 /* Person.swift in Sources */,
 				408338F71CBF8C9800E216B2 /* ViewController.swift in Sources */,
 				408338F51CBF8C9800E216B2 /* AppDelegate.swift in Sources */,
+				4005F8611CBFA5DA0047B8F8 /* viewPersonController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +490,7 @@
 				4083391B1CBF8C9800E216B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4083391C1CBF8C9800E216B2 /* Build configuration list for PBXNativeTarget "StarWarTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +499,7 @@
 				4083391E1CBF8C9800E216B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4083391F1CBF8C9800E216B2 /* Build configuration list for PBXNativeTarget "StarWarUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +508,7 @@
 				408339211CBF8C9800E216B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
